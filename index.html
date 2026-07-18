@@ -3,72 +3,51 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nafisa | Developer Portfolio</title>
+<title>Portfolio</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<header>
 <nav>
-<h2 class="logo">
-Nafisa<span>.</span>
-</h2>
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+<h2 class="logo">Nafisa<span>.</span></h2>
+<div class="menu">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+<i class="fa-solid fa-bars" id="bar"></i>
 </nav>
-<section class="hero">
+<section class="hero" id="home">
 <div class="hero-text">
-<p class="hello">
-Hello, I'm
-</p>
-<h1>
-Nafisa Bhuiyan
-</h1>
-<h2>
-Frontend Developer
-</h2>
-<p>
-Computer Science and Engineering student passionate about
-building responsive websites and web applications using
-modern technologies.
-</p>
+<p class="hello">Hello, I'm</p>
+<h1>Nafisa Bhuiyan</h1>
+<h2><span id="typed-text"></span>
+<span class="cursor">|</span></h2>
+<p class="desc">
+Computer Science and Engineering student.
+I create responsive websites and web applications
+using modern technologies.</p>
 <div class="buttons">
-<a href="#projects" class="primary">
-View Projects
-</a>
+<a href="#projects" class="btn">
+View Projects</a>
 <a href="https://github.com/nafisabhuiyan"
 target="_blank"
-class="secondary">
-GitHub
-</a>
+class="outline">GitHub</a>
 </div>
 </div>
-<div class="hero-card">
-<div>
-N
-</div>
-</div>
+<div class="profile">N</div>
 </section>
-</header>
-<section id="about" class="section">
-<h2>
-About Me
-</h2>
-<p>
-I am a CSE student focused on frontend development.
-I enjoy creating clean UI designs, responsive layouts
-and practical web applications.
-</p>
+<section class="section" id="about">
+<h2>About Me</h2>
+<p>I am a CSE student passionate about frontend development,
+UI design and web application development.
+I enjoy building clean and user friendly websites.</p>
 </section>
-<section id="skills" class="section">
-<h2>
-My Skills
-</h2>
+<section class="section" id="skills">
+<h2>Skills</h2>
 <div class="skills">
 <span>HTML5</span>
 <span>CSS3</span>
@@ -78,67 +57,40 @@ My Skills
 <span>MySQL</span>
 </div>
 </section>
-<section id="projects" class="section">
-<h2>
-My Projects
-</h2>
-<div class="project-container">
-<div class="project-card">
-<h3>
-Healthcare System
-</h3>
-<p>
-PHP and MySQL based healthcare management system
-with authentication and dashboards.
-</p><a href="https://github.com/nafisabhuiyan/Healthcare"
-target="_blank">
-View Code
-</a>
+<section class="section" id="projects">
+<h2>My Projects</h2>
+<div class="projects">
+<div class="project-card"><h3>Healthcare System</h3>
+<p>PHP and MySQL based healthcare management system
+with patient, doctor and admin dashboard.</p>
+<a href="https://github.com/nafisabhuiyan/Healthcare"
+target="_blank">View Code</a>
 </div>
 <div class="project-card">
-<h3>
-Tic Tac Toe
-</h3>
-<p>
-Interactive game developed using HTML, CSS
-and JavaScript.
-</p>
+<h3>Tic Tac Toe</h3>
+<p>Interactive game built using HTML, CSS and JavaScript.</p>
 <a href="https://nafisabhuiyan.github.io/Tic-tac-toe/"
-target="_blank">
-Live Demo
-</a>
+target="_blank">Live Demo</a>
 </div>
 <div class="project-card">
-<h3>
-Rock Paper Scissors
-</h3>
-<p>
-Modern JavaScript based game with score tracking.
-</p>
+<h3>Rock Paper Scissors</h3>
+<p>JavaScript based game with score tracking
+and responsive design.</p>
 <a href="https://nafisabhuiyan.github.io/Rock-paper-scissor/"
-target="_blank">
-Live Demo
-</a>
+target="_blank">Live Demo</a>
 </div>
 </div>
 </section>
-<section id="contact" class="section">
-<h2>
-Contact
-</h2>
-<p>
-<i class="fa-solid fa-envelope"></i>
-yourmail@gmail.com
-</p>
-<p>
-<i class="fa-brands fa-github"></i>
-github.com/nafisabhuiyan
-</p>
+<section class="section contact" id="contact">
+<h2>Contact</h2>
+<p><i class="fa-solid fa-envelope"></i>
+yourmail@gmail.com</p>
+<p><i class="fa-brands fa-github"></i>
+github.com/nafisabhuiyan</p>
 </section>
 <footer>
-<p>
-© 2026 Nafisa. All Rights Reserved.
-</p>
+<p>© 2026 Nafisa. All Rights Reserved.</p>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
